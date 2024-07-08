@@ -1,0 +1,44 @@
+
+.ant-modal .ant-modal-content {
+  background-color: #222;
+}
+
+.auth-container {
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+  font-family: "Audiowide", cursive;
+}
+
+.auth-input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: "Audiowide", cursive;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: "Audiowide", cursive;
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+}

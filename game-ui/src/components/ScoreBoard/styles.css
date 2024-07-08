@@ -1,0 +1,54 @@
+.scoreboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+.scoreboard{
+    width:300px;
+}
+.scoreboard h3{
+    font-family: "Audiowide", cursive;
+
+}
+.scoreboard li {
+    margin: 5px 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.scoreboard li:hover {
+    background-color: #333;
+    transition: background-color 0.3s;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+    transform: scale(1.1);
+}
+.scoreboard li span {
+    color: wheat;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.win {
+    border: 3px solid #28a745;
+    background-color: #222;
+  }
+  
+  .lose {
+    border: 3px solid #dc3545;
+    background-color: #222;
+  }
+  
+  .draw {
+    border: 3px solid #dadbd1;
+    background-color: #222;
+  }

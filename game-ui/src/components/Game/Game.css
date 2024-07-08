@@ -1,0 +1,117 @@
+.game-card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  .game-container h2{
+    font-family: "Audiowide", cursive;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    width: 75%;
+    flex-wrap: wrap;
+  }
+  
+  .choice-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #181818;;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .choice-button:hover {
+    background-color: #181818;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+.result {
+    transition: background-color 0.5s ease;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .win {
+    background-color: #28a745; /* Green for win */
+  }
+  
+  .lose {
+    background-color: #dc3545; /* Red for lose */
+  }
+  
+  .draw {
+    background-color: #ffc107; /* Yellow for draw */
+  }
+  
+  .choice-button {
+    padding: 10px 20px;
+    font-size: 48px;
+    margin: 10px;
+    min-width: 200px;
+    min-height: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: gradient(to bottom, #00ff22, #0056b3);
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+    
+  }
+  
+  .choice-button:hover, .choice-button:focus {
+    background-color: #0056b3;
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+    transform: scale(1.1);
+  }
+
+  @keyframes rain {
+    0% {
+      top: -10%;
+    }
+    100% {
+      top: 110%;
+    }
+  }
+  
+  .emoji-rain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+  }
+  
+  .emoji {
+    position: absolute;
+    font-size: 2em;
+    animation: rain linear infinite;
+    animation-duration: 2s;
+
+  }
+    
